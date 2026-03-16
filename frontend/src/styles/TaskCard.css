@@ -1,0 +1,42 @@
+.task-card {
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-content {
+  flex-grow: 1;
+  padding-right: 1rem;
+}
+
+.task-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.task-desc {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #000000;
+}
+
+.done-btn {
+  background-color: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 0.4rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: background-color 0.2s;
+}
+
+.done-btn:hover {
+  background-color: #d1d5db;
+}

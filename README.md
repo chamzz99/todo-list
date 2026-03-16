@@ -67,7 +67,7 @@ cd todo-list
 
 This application is configured to with zero configuration.
 
-If you would like to secure the database or change its name, create a `.env` file (following the `env_sample`) in the root directory:
+If you would like to secure the database or change its name, create a `.env` file (following the `env_example`) in the root directory:
 
 ```text
 MYSQL_ROOT_PASSWORD=your_secret_here
